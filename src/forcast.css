@@ -1,0 +1,99 @@
+.forcast-div{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: rgb(255, 245, 224);
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgba(51, 43, 28, 0.5);
+margin-top: 150px;
+}
+
+
+.forcastMain{
+    text-align: center;
+    
+}
+.forcastTemp{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+}
+.forcastTime{
+    color:rgb(207, 203, 202);
+    font-size: 16px;
+    background-image: url("./Images/tab_focus_middle.png");
+    background-size:contain;
+  margin: 0;
+   
+ padding:10px;
+    background-repeat: no-repeat;
+}
+.forcastImg{
+  /*  background-image: url("./Images/equipment_grade_silver.png");
+    background-size:contain;
+   
+ padding:10px;
+    background-repeat: no-repeat;*/
+    background-color: rgba(58, 57, 56, 0.5);
+    border-radius: 40%;
+}
+.forcastHeader{
+    color: whitesmoke;
+}
+.forcastImgMain{
+   /* background-image: url("./Images/pass_num_bg.png");
+    background-size:contain;
+   
+ padding:10px;
+    background-repeat: no-repeat;*/
+    background-color: rgba(58, 57, 56, 0.5);
+    border-radius: 40%;
+    margin-left: 25px;
+    margin-top: 10px;
+    width:55px;
+    height: 55px;
+}
+.nextDayHead{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+    .forcast-div{
+        
+        margin-top: 50px;
+    }
+    
+    
+    .forcastTemp{
+        font-size: 12px;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .forcastTime{
+        color:rgb(207, 203, 202);
+        font-size: 12px;
+        background-image: url("./Images/tab_focus_middle.png");
+        background-size:contain;
+      margin: 0;
+       
+     padding:10px;
+        background-repeat: no-repeat;
+    }
+    .forcastImgMain{
+     
+         background-color: rgba(58, 57, 56, 0.5);
+         border-radius: 40%;
+         margin-left: 15px;
+         margin-top: 10px;
+         width:25px;
+         height: 25px;
+     }
+     .forcastImg{
+      
+          background-color: rgba(58, 57, 56, 0.5);
+          border-radius: 40%;
+          width: 40px;
+          height: 40px;
+      }
+}
